@@ -36,6 +36,9 @@ class_name = "NotificationsHub"
 
 [[kv_namespaces]]
 binding = "ATTACHMENTS_KV"
+id = "5441c718d39e49229fc9c0e5ca0eff8f"
+binding = "bitwarden"
+id = "49bd4615ea384b24ab83272976bc9a87"
 
 [[migrations]]
 tag = "v1-notifications-hub"
