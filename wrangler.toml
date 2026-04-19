@@ -26,17 +26,13 @@ command = "npm run build KV"
 [triggers]
 crons = [ "*/5 * * * *" ]
 
-[kv_namespaces]
+[[kv_namespaces]]
 binding = "KV_BINDING"
 id = "a0ba4881359948e99bee553f789125cf"
 
 [[durable_objects.bindings]]
 name = "NOTIFICATIONS_HUB"
 class_name = "NotificationsHub"
-
-[[r2_buckets]]
-binding = "ATTACHMENTS"
-bucket_name = "nodewarden-attachments"
 
 [[migrations]]
 tag = "v1-notifications-hub"
