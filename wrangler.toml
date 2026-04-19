@@ -27,8 +27,8 @@ command = "npm run build"
 crons = [ "*/5 * * * *" ]
 
 [kv_namespaces]
-binding=KV_BINDING
-id=a0ba4881359948e99bee553f789125cf
+binding = "KV_BINDING"
+id = "a0ba4881359948e99bee553f789125cf"
 
 [[durable_objects.bindings]]
 name = "NOTIFICATIONS_HUB"
