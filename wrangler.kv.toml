@@ -34,6 +34,10 @@ class_name = "NotificationsHub"
 binding = "ATTACHMENTS_KV"
 id = "f57a747eb4934d36951ddec37eff5f1a"
 
+[[d1_databases]]
+binding = "DB"
+database_name = "nodewarden-db"
+
 [[migrations]]
 tag = "v1-notifications-hub"
 new_sqlite_classes = [ "NotificationsHub" ]
