@@ -31,7 +31,7 @@ name = "NOTIFICATIONS_HUB"
 class_name = "NotificationsHub"
 
 [[kv_namespaces]]
-binding = "nodewarden"
+binding = "ATTACHMENTS_KV"
 id = "f57a747eb4934d36951ddec37eff5f1a"
 
 [[migrations]]
