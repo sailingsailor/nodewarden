@@ -37,6 +37,7 @@ id = "f57a747eb4934d36951ddec37eff5f1a"
 [[d1_databases]]
 binding = "DB"
 database_name = "nodewarden-db"
+database_id = "c02b25de-3779-4196-8c3b-37732742d90f"
 
 [[migrations]]
 tag = "v1-notifications-hub"
